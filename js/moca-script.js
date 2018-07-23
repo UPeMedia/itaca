@@ -74,7 +74,7 @@ App.controller('appCtrl', function($scope, $http){
     },
     {
       area:"Equipo interno",
-      integrantes: "Construcción: Juan Antonio Escobedo <br/> Arquitectura: Bárbara Vega, Daniel Villadeleón y Talia Vásquez <br/> Finanzas: Lucía Rocco <br/> Ventas: Claudette Frech (Coordinadora de Ventas) Lucía de Lizarralde, María Eugenia de Micheo, María José Ruiz de Reyes, Karla Echeverría de Castillo"
+      integrantes: "Construcción: Raúl Paz <br/> Arquitectura: Bárbara Vega, Daniel Villadeleón y Talia Vásquez <br/> Coordinadora de Ventas: Claudette Frech <br/> Vendedoras: Lucía de Lizarralde, María Eugenia de Micheo, María José Ruiz de Reyes y Karla Echeverría de Castillo <br/> Finanzas: Lucía Rocco"
     },
     {
       area:"Ingenierías",
