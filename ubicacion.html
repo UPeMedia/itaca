@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html ng-app="App">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120235403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120235403-1');
+</script>
+    <title>Itaca - Ubicación</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut icon" href="public/url-icon.png">
+    <link href="lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/itaca-font/stylesheet.css" rel="stylesheet" />
+    <link href="css/moca-style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="lib/lightbox2/css/lightbox.css" rel="stylesheet" />
+  </head>
+  <body ng-controller="appCtrl">
+    <div class="box-main">
+      <div class="section header-menu" ng-include="snipped.menu">
+      </div>
+
+      <div class="col-sm-12 padding-off">
+        <img src="public/ubicacion/banner.jpg" class="imgs">
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top padding-40-bottom">
+        <div class="container">
+          <div class="titulo-arqui text-center">
+              Donde quiero estar
+          </div>
+          <div class="texto-titulo-arqui text-center top-padding-3-porciento">
+            La ubicación del terreno en uno de los sectores más tranquilos de la zona, es una de las fortalezas del proyecto, <br />
+            pues cuenta con amplias calles y banquetas arboladas en un ambiente tranquilo por la poca densidad vehicular y de vivienda.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-bottom">
+        <div class="container padding-off">
+          <div class="linea-arqui">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top">
+        <div class="container padding-off sectionUbicacion">
+          <div class="col-sm-6 padding-off">
+            <img src="public/ubicacion/new-mapa.jpg" class="imgs">
+          </div>
+          <div class="col-sm-6 top-padding-10-porciento descripcionUbicacion">
+              <div class="titulo-interior-texto">
+                ENTORNO
+              </div>
+              <div class="">
+                Vista Hermosa se ha convertido en uno de los puntos de mayor plusvalía por su cercanía a servicios, comercios, restaurantes y entretenimiento. El área es el punto medio entre las zonas 10, 14 y 16 y Carretera a El Salvador. <br /><br />
+                La topografía y el amplio frente del terreno aseguran un entorno con aire puro, tranquilidad y vistas hacia las veredas naturales. El parque ecológico Biotopo de la Ardilla se encuentra frente a ITACA, por eso se ha conservado en lo posible la naturaleza propia del lugar, preservando dentro del diseño arquitectónico árboles preexistentes de gran altura.
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top padding-40-bottom">
+        <div class="container padding-off containerMapa">
+          <img src="public/ubicacion/mapa.jpg" class="imgs imgMapa">
+          <div class="botones-ubicacion">
+            <div style="font-size:20px;padding-bottom:10px;color:rgb(139,110,74)">Cómo llegar:</div>
+            <a href="https://goo.gl/maps/7U5b6utX65p" class="btn-ubicacion">
+              <img src="public/ubicacion/iconMap.png" class="imgs">
+            </a>
+            <a href="https://www.google.com.gt/maps/dir/14.594089,+-90.489553//@14.5936207,-90.4918888,17z/data=!4m6!4m5!1m3!2m2!1d-90.489553!2d14.594089!1m0?hl=es" class="btn-ubicacion">
+              <img src="public/ubicacion/iconWaze.png" class="imgs">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="col-sm-12 footer-bk text-center" ng-include="snipped.footer"></footer>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/lightbox2/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/moca-script.js"></script>
+</body>
+</html>

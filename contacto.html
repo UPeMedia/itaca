@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html ng-app="App">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120235403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120235403-1');
+</script>
+    <title>Itaca - Contacto</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut icon" href="public/url-icon.png">
+    <link href="lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/itaca-font/stylesheet.css" rel="stylesheet" />
+    <link href="css/moca-style.css" rel="stylesheet" type="text/css">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body ng-controller="appCtrl">
+    <div class="box-main">
+      <div class="section header-menu" ng-include="snipped.menu">
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-bottom">
+        <div class="container padding-off">
+          <div class="col-sm-6 padding-off">
+            <img src="public/contacto/contacto.jpg" class="imgs" />
+          </div>
+          <div class="col-sm-6 padding-30-left-right">
+              <div class="titulo-contacto">
+                CONTÁCTENOS
+              </div>
+              <form id="formulario" class="form-group">
+                <div class="col-sm-12 padding-bottom">
+                  <label>Nombre completo</label>
+                  <input ng-model="formObj.nombre" name="nombre" class="form-control form-control-itaca-border-bottom" type="text">
+                </div>
+                <div class="col-sm-12 padding-bottom">
+                  <label>Correo electrónico</label>
+                  <input ng-model="formObj.correo" name="correo" class="form-control form-control-itaca-border-bottom" type="email">
+                </div>
+                <div class="col-sm-12 padding-bottom">
+                  <label>Teléfono</label>
+                  <input ng-model="formObj.telefono" name="telefono" class="form-control form-control-itaca-border-bottom" type="text">
+                </div>
+
+                <div class="col-sm-12 padding-bottom">
+                  <label>Mensaje</label>
+                  <textarea rows="10" ng-model="formObj.mensaje" name="mensaje" class="form-control form-control-itaca-border" type="text"></textarea>
+                </div>
+
+                <div class="col-sm-12 padding-bottom">
+                  <a href="#" class="enviar-form" ng-click="enviarMail()">
+                    <img src="public/contacto/btn-enviar.png" class="imgs">
+                  </a>
+                </div>
+
+                <div class="col-sm-12 padding-bottom">
+                  <div class="animated {{claseAviso}}">{{aviso}}</div>
+                </div>
+
+              </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="col-sm-12 footer-bk text-center" ng-include="snipped.footer"></footer>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/moca-script.js"></script>
+</body>
+</html>

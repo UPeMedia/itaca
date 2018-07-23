@@ -1,0 +1,148 @@
+<!DOCTYPE>
+<html ng-app="App">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120235403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120235403-1');
+</script>
+    <title>Itaca - Areas comunes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut icon" href="public/url-icon.png">
+    <link href="lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/itaca-font/stylesheet.css" rel="stylesheet" />
+    <link href="css/moca-style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body ng-controller="appCtrl">
+    <div class="box-main">
+      <div class="section header-menu" ng-include="snipped.menu">
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top padding-40-bottom">
+        <div class="container">
+          <div class="titulo-arqui text-center">
+              Una comunidad
+          </div>
+          <div class="texto-titulo-arqui text-center" style="padding-top:20px">
+            ÍTACA incluye espacios y sistemas que promueven la comodidad, convivencia y seguridad de sus residentes.
+            <br />
+            Cada ambiente genera un sentido de pertenencia y comodidad, en un contexto exclusivo.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-bottom">
+        <div class="container padding-off">
+          <div class="linea-arqui">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top">
+        <div class="container padding-off sectionArquitectura">
+          <div class="col-sm-4 top-padding-13-porciento descripcionArquitectura">
+              <div class="titulo-interior-texto">
+                ARTE
+              </div>
+              <div class="">
+                El artista Dennis Leder creó, a base de materiales industriales, una obra de 5x5 m de base y 10 m de altura que será parte de la plaza central del edificio.
+              </div>
+          </div>
+          <div class="col-sm-8 padding-off">
+            <img src="public/areas/area-1.png" class="imgs">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top padding-40-bottom">
+        <div class="container padding-off sectionArquitectura">
+          <div class="col-sm-8 padding-off">
+            <img src="public/areas/area-1.jpg" class="imgs">
+          </div>
+          <div class="col-sm-4 top-padding-8-porciento descripcionArquitectura">
+              <div class="titulo-interior-texto">
+                AMENIDADES
+              </div>
+              <div class="">
+                <ul style="padding-left:16px;">
+                  <li>Plaza de ingreso y jardín</li>
+                  <li>Salón de usos múltiples con cocineta</li>
+                  <li>Gimnasio equipado</li>
+                  <li>Sala de yoga</li>
+                  <li>Piscina</li>
+                  <li>Sauna</li>
+                  <li>Centro de negocios</li>
+                  <li>Sala de lectura</li>
+                  <li>Azotea verde (huerta)</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-bottom">
+        <div class="container padding-off">
+          <div class="linea-arqui">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 padding-off">
+          <div class="container padding-off">
+              <div class="titulo-interior-texto text-center" style="text-transform:uppercase">
+                Las torres cuentan con circulación vertical independiente y cada sótano <br /> dispone de entrada propia, parqueos amplios y una bodega por apartamento.
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-12 padding-off padding-40-top padding-40-bottom">
+        <div class="container padding-off sectionArquitectura">
+          <div class="col-sm-4 top-padding-3-porciento descripcionArquitectura">
+              <div class="titulo-interior-texto">
+                COMODIDADES PARA FUNCIONAMIENTO
+              </div>
+              <div class="">
+                <ul style="padding-left:16px;">
+                  <li>Parqueo de visitas</li>
+                  <li>Área de estar con servicios para pilotos y personal de seguridad</li>
+                  <li>Área de estar con servicios para empleados</li>
+                  <li>Oficina administrativa</li>
+                  <li>Bodegas de limpieza y mantenimiento</li>
+                </ul>
+              </div>
+              <div class="titulo-interior-texto">
+                SISTEMAS Y EQUIPOS
+              </div>
+              <div class="">
+                <ul style="padding-left:16px;">
+                  <li>Planta eléctrica de emergencia</li>
+                  <li>Central de monitoreo</li>
+                  <li>Pozo propio</li>
+                  <li>Red de gas con sistema de distribución para estufas y secadoras de ropa</li>
+                  <li>Dos elevadores por torre, uno con cabina interna de 1x2 m y otro de 1x1.5 m*</li>
+                </ul>
+              </div>
+              <span style="padding-left:15px; font-size:12px">*Las medidas pueden variar</span>
+          </div>
+          <div class="col-sm-8 padding-off">
+            <img src="public/areas/area-4.jpg" style="height:447px;" class="imgs">
+          </div>
+        </div>
+      </div>
+
+      <footer class="col-sm-12 footer-bk text-center" ng-include="snipped.footer"></footer>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/moca-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,274 @@
+//out:./moca-style.css
+
+fTexto =  aileronthin;
+fBold = aileronregular;
+fTitulos = didddregular;
+fItalica = diddditalic;
+
+colorCafe = rgb(62,58,49);
+colorCafeClaro = rgb(117,59,26);
+colorRosado = rgb(192,180,171);
+colorRosadoClaro = rgb(240,238,235);
+colorRosadoAlfa = rgba(192,180,171,0.8);
+
+colorGris = rgb(237,234,232);
+
+imp = !important;
+
+html
+  body
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+    font-family: fTexto;
+
+.padding-off
+  padding-left: 0px imp;
+  padding-right: 0px imp;
+
+.logo-itaca
+  max-width: 137px;
+  margin: 0 auto;
+
+.box-main
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  overflow-y: scroll;
+  position: absolute;
+
+.full-w-h
+  width: 100%;
+  height: 100%;
+
+.full-w
+  width: 100%;
+
+.full-h
+  width: 100%;
+
+.bk-full
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+.footer-bk
+  font-size: 12px;
+  background: rgb(72, 55, 40);
+  color: #fff;
+  font-weigth: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+//.header-menu
+
+.imgs
+  width: 100%;
+  height: auto;
+//.logo-img
+
+.flex
+  display: -webkit-flex;
+  display: -moz-flex;
+
+.flex-bottom
+  align-self: flex-end;
+
+.padding-bottom
+  padding-bottom: 20px;
+
+//.box-menu
+
+#carousel-home
+  position: relative;
+
+.mensaje-banner
+  background-color: colorRosadoAlfa;
+  font-family: fTitulos;
+  font-size: 20px;
+  position: absolute imp;
+  z-index: 1;
+  padding-top: 25px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+
+
+.contenedor-menu
+  padding-top: 108px;
+
+.menu
+  border: 0;
+
+.texto-menu
+  a
+    color: colorCafe imp;
+
+.boton-menu
+  background: rgb(72, 55, 40);
+
+
+.nav > li > a:hover, .nav > li > a:focus
+  text-decoration: underline imp;
+  background-color: initial imp;
+
+//.box-la-odisea
+
+.la-odisea-historia
+  font-family: fItalica;
+  padding-bottom: 30px;
+
+.titulo-odisea
+  font-family: fTitulos;
+  padding-bottom: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: colorCafeClaro;
+
+.icono-odisea
+  max-width: 78px;
+  margin:0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+.la-odisea-titulo-principal
+  font-family: fTitulos imp;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+
+.historio-texto-odisea
+  padding-bottom: 40px;
+
+.titulo-interno-odisea
+  color: colorCafeClaro;
+  font-family: fTitulos;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 10px;
+  padding-top:10px;
+
+.padding-30-left-right
+  padding-left: 30px imp;
+  padding-right: 30px imp;
+  padding-bottom: 30px imp;
+
+.padding-10-top
+  padding-top: 10px;
+
+.padding-20-top
+  padding-top: 20px;
+
+.padding-40-top
+  padding-top:40px;
+
+.padding-40-bottom
+  padding-bottom: 40px;
+
+.bk-rosado
+  background-color: colorRosadoClaro;
+
+.titulo-arqui
+  font-family: fTitulos;
+  font-size: 25px;
+  padding: 20px 0 20px 0;
+  text-transform: uppercase;
+
+
+.letra-peque
+  font-size: 10px;
+
+.texto-titulo-arqui
+  padding: 0 0 20px 0;
+
+.linea-arqui
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid colorGris;
+
+
+.titulo-interior-texto
+  font-family: fTitulos;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+
+.bold
+  font-family: fBold;
+
+.top-padding-5-porciento
+  padding-top: 5%;
+
+.top-padding-25-porciento
+  padding-top: 20%;
+
+.top-padding-13-porciento
+  padding-top: 13%;
+
+.botones-ubicacion
+  display: inline-block;
+
+.btn-ubicacion
+  float: left;
+  margin: 0 10px 0 0;
+  display: block;
+  max-width: 150px;
+
+.form-control-itaca-border-bottom
+  background-color: initial imp;
+  border: 0px solid #cccccc imp;
+  border-bottom: 1px solid colorCafe imp;
+  border-radius: 0px imp;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075) imp;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075) imp;
+
+.form-control-itaca-border
+  background-color: initial imp;
+  border: 1px solid colorCafe imp;
+  border-radius: 0px imp;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075) imp;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075) imp;
+
+#formulario
+  border-bottom: 0px solid red imp;
+
+.ng-invalid-email
+  border-bottom: 2px solid red imp;
+
+.enviar-form
+  max-width: 170px;
+  display: block;
+
+.mayusculas
+  text-transform:uppercase;
+
+.texto-interior
+  padding-left: 15px;
+  ul
+    padding-left:2px;
+    list-style: none;
+
+.links
+  color: colorCafe imp;
+  text-decoration: underline;
+
+.titulo-lista
+  padding-bottom: 15px;
+
+.itaca-peque
+  font-size: 12px
+
+.area-equipo
+  width: 148px imp;
+
+@media(max-width:767px)
+  .contenedor-menu
+    padding-top:43px;
+
+  .top-padding-25-porciento
+    padding-top: 10%;

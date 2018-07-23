@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html ng-app="App">
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120235403-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120235403-1');
+</script>
+    <title>Itaca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut icon" href="public/url-icon.png">
+    <link href="lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/itaca-font/stylesheet.css" rel="stylesheet" />
+    <link href="css/moca-style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body ng-controller="appCtrl">
+    <div class="box-main">
+      <div class="section header-menu" ng-include="snipped.menu">
+      </div>
+
+      <div id="carousel-home" class="carousel slide full-w-h" data-ride="carousel">
+        <div class="col-sm-12 mensaje-banner  full-w text-center">
+          El viaje más importante es el que te lleva a casa
+        </div>
+
+        <div class="carousel-inner">
+          <div class="item active full-w-h bk-full" style="background-image:url('public/home/slide-1.jpg');"></div>
+          <div class="item full-w-h bk-full" style="background-image:url('public/home/slide-2.jpg');"></div>
+          <div class="item full-w-h bk-full" style="background-image:url('public/home/slide-3.jpg');"></div>
+          <div class="item full-w-h bk-full" style="background-image:url('public/home/slide-4.jpg');"></div>
+        </div>
+        <a class="left carousel-control" href="#carousel-home" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
+        <a class="right carousel-control" href="#carousel-home" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+      </div>
+
+      <footer class="col-sm-12 footer-bk text-center" ng-include="snipped.footer"></footer>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/moca-script.js"></script>
+</body>
+</html>
